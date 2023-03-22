@@ -1,0 +1,14 @@
+.clip-wraper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, .7);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.clip-content p {
+    transform: translateX(-20px);
+}
